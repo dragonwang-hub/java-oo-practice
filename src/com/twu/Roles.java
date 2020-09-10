@@ -54,7 +54,7 @@ public class Roles {
             });
 
             for (int i = 1; i <= sortAllTopics.size(); i++) {
-                System.out.println(i + ":" + sortAllTopics.get(i - 1).getTopic() + "\t\t" + sortAllTopics.get(i - 1).getVoteCount() + "\t\t" + sortAllTopics.get(i - 1).getPrice());
+                System.out.println(i + ":" + sortAllTopics.get(i - 1).getTopic() + "\t\t" + sortAllTopics.get(i - 1).getVoteCount());
             }
             return true;
         }
